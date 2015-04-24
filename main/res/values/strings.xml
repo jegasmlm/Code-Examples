@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Money</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="capitalTittle">Capital</string>
+    <string name="assets">Assets</string>
+    <string name="liabilities">Liabilities</string>
+    <string name="add_entry">Add Entry</string>
+    <string name="add_account">Add Account</string>
+    <string name="transactions">Transactions</string>
+    <string name="title_activity_account_form_controller">AccountFormController</string>
+    <string name="cash">Cash</string>
+    <string name="receivables">Receivables</string>
+    <string name="properties">Properties</string>
+    <string name="no_liability_account">There is not a liability account</string>
+    <string name="no_account">There is not an account registered</string>
+    <string name="accountPayable">Accounts Payable</string>
+    <string name="property">Property</string>
+    <string name="friendlyLoan">Friendly Loan</string>
+    <string name="loan">Loan</string>
+    <string name="accountType">Account Type</string>
+    <string name="entity">Entity</string>
+    <string name="organization_name">Organization Name</string>
+    <string name="cashAccount">Cash Account</string>
+    <string name="initialBalance">Initial Balance</string>
+    <string name="description">Description</string>
+    <string name="save">Save</string>
+    <string name="propertyAccount">Property Account</string>
+    <string name="accountName">Account Name</string>
+    <string name="name">Name</string>
+    <string name="imLending">I\'m Lending!</string>
+    <string name="imBorrowing">I\'m Borrowing!</string>
+    <string name="personOrOrganzition">Person or organization</string>
+    <string name="friendName">Friend Name</string>
+    <string name="amount">Amount</string>
+    <string name="loanAccount">Loan Account</string>
+    <string name="friendlyLoanAccount">Friendly Loan Account</string>
+    <string name="rate">Rate</string>
+    <string name="periods">Periods</string>
+    <string name="from">From</string>
+    <string name="account">Account</string>
+    <string name="addTransaction">Add Transaction</string>
+    <string name="to">To</string>
+    <string name="category">Category</string>
+</resources>

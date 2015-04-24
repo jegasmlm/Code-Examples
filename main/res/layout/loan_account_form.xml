@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@id/loanAccountForm"
+        style="@style/formContainer">
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="@string/imLending"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/dark_gray"
+                android:paddingBottom="10dp" />
+
+            <TextView
+                android:text="@string/imBorrowing"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/dark_gray"
+                android:paddingBottom="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/formRow">
+
+            <TextView
+                android:text="@string/entity"
+                style="@style/formTextTittle" />
+
+            <EditText
+                android:hint="@string/organization_name"
+                style="@style/formEditText" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/formRowOneLine">
+
+            <TextView
+                android:text="@string/amount"
+                style="@style/formTextTittle2" />
+
+            <EditText
+                android:hint="0.0"
+                style="@style/formEditText2"
+                android:inputType="numberDecimal"/>
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/formRowOneLine">
+
+            <TextView
+                android:text="@string/periods"
+                style="@style/formTextTittle2" />
+
+            <EditText
+                android:hint="0.0"
+                style="@style/formEditText2"
+                android:inputType="numberDecimal"/>
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/formRowOneLine">
+
+            <TextView
+                android:text="@string/rate"
+                style="@style/formTextTittle2" />
+
+            <EditText
+                android:hint="0.0"
+                style="@style/formEditText2"
+                android:inputType="numberDecimal"/>
+
+            <TextView
+                android:inputType="numberDecimal"
+                android:text="%"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="@color/dark_gray"
+                android:background="@color/light_gray"/>
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/formRow"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:text="@string/description"
+                style="@style/formTextTittle" />
+
+            <EditText
+                android:hint="@string/description"
+                style="@style/formEditText"
+                android:layout_height="100dp"
+                android:gravity="start"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
